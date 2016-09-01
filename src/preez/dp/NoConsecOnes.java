@@ -1,4 +1,4 @@
-package preez.magic;
+package preez.dp;
 
 import java.util.Scanner;
 

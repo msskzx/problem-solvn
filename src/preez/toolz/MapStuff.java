@@ -1,4 +1,4 @@
-package preez.prede;
+package preez.toolz;
 
 import java.util.HashMap;
 import java.util.LinkedHashMap;
