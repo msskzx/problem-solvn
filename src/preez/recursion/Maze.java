@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class Maze {
 
-	// top coder recursion part 2
+	// topcoder recursion part 2
 	// maze
 
 	// 3
@@ -42,6 +42,7 @@ public class Maze {
 			}
 		}
 		System.out.println(maze(maze, x, y));
+
 	}
 
 }
