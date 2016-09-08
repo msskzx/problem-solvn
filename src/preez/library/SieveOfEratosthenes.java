@@ -1,4 +1,4 @@
-package preez.toolz;
+package preez.library;
 
 import java.util.Arrays;
 
@@ -31,14 +31,6 @@ public class SieveOfEratosthenes {
 			next++;
 		}
 		return next;
-	}
-
-	public static void main(String[] args) {
-		int n = 10;
-		sieve(n);
-		for (int i = 0; i < n; i++)
-			if(a[i])
-			System.out.println(i);
 	}
 
 }

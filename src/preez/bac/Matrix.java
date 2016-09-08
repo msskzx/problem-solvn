@@ -1,4 +1,4 @@
-package preez.naccepted;
+package preez.bac;
 
 import java.io.BufferedReader;
 import java.io.IOException;

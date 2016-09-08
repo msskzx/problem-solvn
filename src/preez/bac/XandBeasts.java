@@ -1,4 +1,4 @@
-package preez.naccepted;
+package preez.bac;
 
 import java.io.*;
 import java.util.StringTokenizer;
