@@ -4,8 +4,11 @@ import java.util.Arrays;
 import java.util.Scanner;
 
 public class SumCoins {
-	
-	//top coder dynamic programming first problem
+	/*
+	 * top coder dynamic programming first problem
+	 * 
+	 * minimum number of coins to get that sum
+	 */
 	
 	static Scanner sc = new Scanner(System.in);
 	static int n, sum;

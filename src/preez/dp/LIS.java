@@ -13,7 +13,7 @@ public class LIS {
 		n = sc.nextInt();
 		int[] a = new int[n];
 		int[] m = new int[n];
-		
+
 		for (int i = 0; i < n; i++) {
 			a[i] = sc.nextInt();
 			m[i] = 1;
