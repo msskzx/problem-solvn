@@ -13,8 +13,9 @@ public class Route {
 	 * 
 	 * input:
 	 * 
-	 * vertices edges
+	 * NO. vertices NO. edges
 	 * 
+	 * Vertex neighbor
 	 * Vertex neighbor
 	 * 
 	 * source target
