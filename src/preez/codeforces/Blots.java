@@ -19,7 +19,6 @@ public class Blots {
 		}
 		a[i][j] = '0';
 		return 1 + f(i - 1, j) + f(i + 1, j) + f(i, j + 1) + f(i, j - 1);
-
 	}
 
 	public static void main(String[] args) throws IOException {

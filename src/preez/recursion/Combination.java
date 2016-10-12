@@ -1,4 +1,4 @@
-package preez.library;
+package preez.recursion;
 
 import java.util.*;
 
