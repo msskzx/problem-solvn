@@ -1,2 +1,2 @@
 # preez
-famous algorithms and problems
+algorithms and problems
