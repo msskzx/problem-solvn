@@ -1,4 +1,4 @@
-package preez.library;
+package preez.library.math;
 
 public class GCD {
 
