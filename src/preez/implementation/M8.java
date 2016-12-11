@@ -2,7 +2,7 @@ package preez.implementation;
 
 import java.util.Scanner;
 
-public class Roomm8 {
+public class M8 {
 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
