@@ -1,4 +1,4 @@
-package preez.implementation;
+package preez.implementation.vjn;
 
 import java.util.Arrays;
 import java.util.Random;

@@ -1,4 +1,4 @@
-package preez.implementation;
+package preez.implementation.vjn;
 
 import java.awt.Color;
 import java.awt.image.BufferedImage;
@@ -8,17 +8,17 @@ import java.io.IOException;
 import javax.imageio.ImageIO;
 import javax.imageio.ImageWriter;
 
-public class Eight_Values_GSI {
+public class GSI_Darken {
 
 	/*
-	 * Convert a gray scale image where each pixel is represented in 8 bits to
-	 * another image having 8 values only and write this image.
+	 * Write a program that reads a gray scale image and darkens each pixel by
+	 * 40
 	 */
 
 	static BufferedImage bi;
-	static Color c;
 	static ImageWriter output;
-	static int[] grays = { 0x202020, 0x404040, 0x606060, 0x808080, 0xA0A0A0, 0xC0C0C0, 0xE0E0E0, 0xFFFFFF };
+	static Color c;
+	static int x;
 
 	public static void main(String[] args) throws IOException {
 		bi = ImageIO.read(new File("img/gsi.jpg"));
@@ -26,12 +26,13 @@ public class Eight_Values_GSI {
 		for (int i = 0; i < bi.getHeight(); i++) {
 			for (int j = 0; j < bi.getWidth(); j++) {
 				c = new Color(bi.getRGB(j, i));
-				bi.setRGB(j, i, grays[Math.round(c.getBlue() / 32)]);
+				x = Math.max(0, c.getBlue() - 40);
+				c = new Color(x, x, x);
+				bi.setRGB(j, i, c.getRGB());
 			}
 		}
 
-		File outputfile = new File("img/8values.jpg");
+		File outputfile = new File("img/draken40.jpg");
 		ImageIO.write(bi, "jpg", outputfile);
 	}
-
 }

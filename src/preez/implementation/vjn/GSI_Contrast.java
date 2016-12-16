@@ -1,4 +1,4 @@
-package preez.implementation;
+package preez.implementation.vjn;
 
 import java.awt.Color;
 import java.awt.image.BufferedImage;
