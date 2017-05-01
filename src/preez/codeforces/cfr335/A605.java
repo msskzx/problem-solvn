@@ -1,41 +1,36 @@
-package preez.codeforces.iccer;
+package preez.codeforces.cfr335;
 
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
-public class B722 {
+public class A605 {
 
 	static BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-	static int n, count;
+	static int n, cur, max;
 	static int[] a;
-	static String s;
-	static boolean flag;
 	static StringTokenizer st;
 
 	public static void main(String[] args) throws NumberFormatException, IOException {
 		n = Integer.parseInt(br.readLine());
-		a = new int[n];
 		st = new StringTokenizer(br.readLine());
-
-		for (int i = 0; i < n; i++)
-			a[i] = Integer.parseInt(st.nextToken());
+		a = new int[100001];
 
 		for (int i = 0; i < n; i++) {
-			s = br.readLine();
-			count = 0;
-			for (int j = 0; j < s.length(); j++) {
-				if ("aeiouy".contains("" + s.charAt(j))) {
-					count++;
-				}
-			}
-			if (count != a[i]) {
-				flag = true;
-				break;
+			a[Integer.parseInt(st.nextToken())] = i;
+		}
+		cur = 1;
+		for (int i = 2; i <= n; i++) {
+			if (a[i] > a[i - 1]) {
+				cur++;
+			} else {
+				max = Math.max(cur, max);
+				cur = 1;
 			}
 		}
-		System.out.println(flag ? "NO" : "YES");
+		max = Math.max(cur, max);
+		System.out.println(n - max);
 	}
 
 }

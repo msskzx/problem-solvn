@@ -1,4 +1,4 @@
-package preez.codeforces.vcer2016;
+package preez.codeforces.venture_cup_2016_elimination_round;
 
 import java.util.Scanner;
 

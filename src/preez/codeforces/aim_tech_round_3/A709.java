@@ -1,4 +1,4 @@
-package preez.codeforces.atr3;
+package preez.codeforces.aim_tech_round_3;
 
 import java.io.BufferedReader;
 import java.io.IOException;

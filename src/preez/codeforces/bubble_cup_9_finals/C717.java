@@ -1,4 +1,4 @@
-package preez.codeforces.bc9;
+package preez.codeforces.bubble_cup_9_finals;
 
 import java.io.BufferedReader;
 import java.io.IOException;

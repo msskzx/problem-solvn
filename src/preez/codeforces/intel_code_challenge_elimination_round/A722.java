@@ -1,4 +1,4 @@
-package preez.codeforces.iccer;
+package preez.codeforces.intel_code_challenge_elimination_round;
 
 import java.util.Scanner;
 

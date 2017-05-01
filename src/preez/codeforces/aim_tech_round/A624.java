@@ -1,4 +1,4 @@
-package preez.codeforces.atr;
+package preez.codeforces.aim_tech_round;
 
 import java.util.Scanner;
 
