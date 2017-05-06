@@ -1,4 +1,4 @@
-package preez.codeforces.edcfr16;
+package preez.codeforces.edcfr016;
 
 import java.io.BufferedReader;
 import java.io.IOException;
