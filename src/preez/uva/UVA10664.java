@@ -8,7 +8,7 @@ import java.io.PrintWriter;
 import java.util.ArrayList;
 import java.util.StringTokenizer;
 
-public class Luggage_10664 {
+public class UVA10664 {
 
 	static PrintWriter pr = new PrintWriter(new OutputStreamWriter(System.out));
 	static BufferedReader br = new BufferedReader(new InputStreamReader(System.in));

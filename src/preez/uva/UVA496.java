@@ -8,7 +8,7 @@ import java.io.PrintWriter;
 import java.util.ArrayList;
 import java.util.StringTokenizer;
 
-public class Wetlands_of_Florida_496 {
+public class UVA496 {
 
 	static ArrayList<char[]> a;
 	static int N, M, T, qi, qj;
