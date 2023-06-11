@@ -1,1 +1,7 @@
-## Solutions for some problems on UVA, Codeforces and other sites.  
+# Problem Solving
+Solutions for problems on:
+- UVA
+- Codeforces
+- Leetcode
+- Hackerrank
+- Challenges

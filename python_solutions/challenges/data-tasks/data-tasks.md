@@ -1,0 +1,2 @@
+# Task
+Please us the attached dataset to provide a binary classification of the column “Type”. The dataset is provided into two different tables with unique identifier of column “ID”. Tip: This column (ID) can be used to match the two tables.
