@@ -9,7 +9,6 @@ class Solution:
         res = []
         appended = False
         for a, b in intervals:
-            print(x, y)
             if (a <= x and x <= b
             or a <= y and y <= b):
                 # merge
