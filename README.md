@@ -2,11 +2,10 @@
 
 I solved 300+ problems on various online judges.
 
-- Leetcode: [Profile](https://leetcode.com/msskzx/), solved 50+ problems
+- Leetcode: [Profile](https://leetcode.com/msskzx/), solved 80+ problems
 - Codeforces: [Profile](https://codeforces.com/profile/mssk), solved 230+ problems 
-- Hackerrank: [Profile](https://www.hackerrank.com/msskzx)
-- UVA
-- Coding Challenges
+- Hackerrank: [Profile](https://www.hackerrank.com/msskzx), solved 10+ problems
+- UVA, solved 10+ problems
 
  I have a deep understanding of algorithms and data structures and an extensive grasp of the following topics:
 
