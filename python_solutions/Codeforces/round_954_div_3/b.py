@@ -1,28 +1,21 @@
-def stab_matrix(matrix, n, m):
+"""
+https://codeforces.com/contest/1986/problem/B
+"""
+
+def solve(n, m, a):
     for i in range(n):
         for j in range(m):
-            # check if cell is greater than all neighbors if x and y are within bounds
-            dirs = [(0, 1), (0, -1), (1, 0), (-1, 0)]
-            flags = []
-            min_neighbor = int(1e9)
-            for dx, dy in dirs:
-                x, y = i + dx, j + dy
-                if 0 <= x < n and 0 <= y < m:
-                    if matrix[i][j] > matrix[x][y]:
-                        min_neighbor = min(matrix[x][y], min_neighbor)
-                        flags.append(True)
-                    else:
-                        flags.append(False)
-                else:
-                    flags.append(True)
-
-            if all(flags):
-                # set to min of all neighbors
-                matrix[i][j] = min_neighbor
-                stab_matrix(matrix, n, m) # recheck the matrix after the change
-    
-    return matrix
-    
+            mx = 0
+            if i > 0:
+                mx = max(mx, a[i - 1][j])
+            if i < n - 1:
+                mx = max(mx, a[i + 1][j])
+            if j > 0:
+                mx = max(mx, a[i][j - 1])
+            if j < m - 1:
+                mx = max(mx, a[i][j + 1])
+            a[i][j] = min(a[i][j], mx)
+            print(a[i][j], end=" " if j < m - 1 else "\n")
 
 def main():
     t = int(input().strip())
@@ -31,9 +24,7 @@ def main():
         matrix = []
         for _ in range(n):
             matrix.append(list(map(int, input().strip().split())))
-        res = stab_matrix(matrix, n, m)
-        for row in res:
-            print(" ".join(map(str, row)))
-    
+        solve(n, m, matrix)
+       
 if __name__ == "__main__":
     main()
