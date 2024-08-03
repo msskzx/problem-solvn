@@ -2,7 +2,7 @@
 
 I solved 450+ problems on various online judges.
 
-- Leetcode: [Profile](https://leetcode.com/msskzx/), solved 180+ problems
+- Leetcode: [Profile](https://leetcode.com/msskzx/), solved 200+ problems
 - Codeforces: [Profile](https://codeforces.com/profile/mssk), solved 250+ problems
 - Hackerrank: [Profile](https://www.hackerrank.com/msskzx), solved 20+ problems
 
