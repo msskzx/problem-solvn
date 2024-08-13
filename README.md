@@ -1,10 +1,10 @@
 # Problem Solving
 
-I solved 450+ problems on various online judges.
+I solved 500+ problems on various coding platforms.
 
-- Leetcode: [Profile](https://leetcode.com/msskzx/), solved 200+ problems
+- Leetcode: [Profile](https://leetcode.com/msskzx/), solved 250+ problems
 - Codeforces: [Profile](https://codeforces.com/profile/mssk), solved 250+ problems
-- Hackerrank: [Profile](https://www.hackerrank.com/msskzx), solved 20+ problems
+- Hackerrank: [Profile](https://www.hackerrank.com/msskzx), solved 50+ problems
 
  I have a deep understanding of algorithms and data structures and an extensive grasp of the following topics:
 
