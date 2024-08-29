@@ -1,3 +1,4 @@
 /bin/
 **/logs/
 python_solutions/test.ipynb
+.vscode/settings.json

@@ -1,6 +1,7 @@
 {
     "files.associations": {
         "*.tex": "tex",
-        "vector": "cpp"
+        "vector": "cpp",
+        "iosfwd": "cpp"
     }
 }
