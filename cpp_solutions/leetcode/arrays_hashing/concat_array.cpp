@@ -1,7 +1,7 @@
 // https://leetcode.com/problems/concatenation-of-array/
 
 #include <vector>
-using namespace std
+using namespace std;
 
 class Solution {
 public:

@@ -1,4 +1,9 @@
 // https://leetcode.com/problems/isomorphic-strings/
+
+#include <unordered_map>
+#include <string>
+using namespace std;
+
 class Solution {
 public:
     bool isIsomorphic(string s, string t) {

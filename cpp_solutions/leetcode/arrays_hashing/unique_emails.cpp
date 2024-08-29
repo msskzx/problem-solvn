@@ -1,5 +1,10 @@
 // https://leetcode.com/problems/unique-email-addresses/
 
+#include <vector>
+#include <set>
+#include <string>
+using namespace std;
+
 class Solution {
 public:
     int numUniqueEmails(vector<string>& emails) {

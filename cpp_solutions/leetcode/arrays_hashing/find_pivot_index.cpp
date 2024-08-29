@@ -1,5 +1,8 @@
 // https://leetcode.com/problems/find-pivot-index/
 
+#include <vector>
+using namespace std;
+
 class Solution {
 public:
     int pivotIndex(vector<int>& nums) {

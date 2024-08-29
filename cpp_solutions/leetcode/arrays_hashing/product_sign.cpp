@@ -1,5 +1,8 @@
 // https://leetcode.com/problems/sign-of-the-product-of-an-array/
 
+#include <vector>
+using namespace std;
+
 class Solution {
 public:
     int arraySign(vector<int>& nums) {
