@@ -1,4 +1,7 @@
-package leetcode;
+package leetcode.trees;
+
+import java.util.ArrayList;
+import java.util.List;
 
 /**
  * Definition for a binary tree node.
@@ -15,7 +18,7 @@ package leetcode;
  *     }
  * }
  */
-class Solution {
+class PostorderTraversal {
     public List<Integer> postorderTraversal(TreeNode root) {
         return dfs(root, new ArrayList<Integer>());
     }

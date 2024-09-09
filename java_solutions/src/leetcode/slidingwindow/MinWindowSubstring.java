@@ -1,5 +1,7 @@
 package leetcode.slidingwindow;
 
+import java.util.HashMap;
+
 // https://leetcode.com/problems/minimum-window-substring/
 
 class Solution {

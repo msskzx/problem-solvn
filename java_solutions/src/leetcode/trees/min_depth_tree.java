@@ -1,3 +1,5 @@
+package leetcode.trees;
+
 // https://leetcode.com/problems/minimum-depth-of-binary-tree/
 
 /**
@@ -15,7 +17,7 @@
  *     }
  * }
  */
-class Solution {
+class MinDepthTree {
     public int minDepth(TreeNode root) {
         if (root == null) {
             return 0;

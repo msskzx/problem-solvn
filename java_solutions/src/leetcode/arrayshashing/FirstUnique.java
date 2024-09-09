@@ -1,7 +1,9 @@
-package leetcode;
+package leetcode.arrayshashing;
+
+import java.util.HashMap;
 
 // https://leetcode.com/problems/first-unique-character-in-a-string/
-class Solution {
+class FirstUnique {
     public int firstUniqChar(String s) {
         HashMap<Character, Integer> freq = new HashMap<>();
         for (int i = 0; i < s.length(); i++) {

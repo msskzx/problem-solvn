@@ -1,8 +1,8 @@
-package leetcode;
+package leetcode.binarysearch;
 
 // https://leetcode.com/problems/squares-of-a-sorted-array/
 
-class Solution {
+class SquaresSorted {
     public int[] sortedSquares(int[] nums) {
         int lw = 0;
         int hi = nums.length - 1;

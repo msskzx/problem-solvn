@@ -1,7 +1,7 @@
-package leetcode;
+package leetcode.binarysearch;
 
 // https://leetcode.com/problems/arranging-coins/description/
-class Solution {
+class ArrangingCoins {
     public int arrangeCoins(int n) {
         int lw = 0;
         int hi = 66000;
