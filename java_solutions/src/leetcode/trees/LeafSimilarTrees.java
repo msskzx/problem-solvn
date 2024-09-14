@@ -1,5 +1,8 @@
 package leetcode.trees;
 
+import java.util.LinkedList;
+import java.util.List;
+
 // https://leetcode.com/problems/leaf-similar-trees/submissions/1385835484/
 
 /**
@@ -17,6 +20,7 @@ package leetcode.trees;
  *     }
  * }
  */
+
 class LeafSimilarTrees {
     public boolean leafSimilar(TreeNode root1, TreeNode root2) {
         return this.dfs(root1, new LinkedList<>()).equals(this.dfs(root2, new LinkedList<>()));
