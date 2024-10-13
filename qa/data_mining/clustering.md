@@ -51,21 +51,21 @@ try different k and choose the one with best cluster quality measure (Dunn-index
 
 - spherical
 - k
-- no noise
+- no notion of noise
 
 ## DBSCAN Steps
 
 - init: minPts, e
 - repeat:
  - visit unseen x
-  - if in neighborhood start a new cluster
+  - if in neighborhood add to cluster or start a new cluster
   - else noise
 
 ## DBSCAN advantages
 
 - no k
 - arbitrary shaped clusters
-- noise
+- notion of noise
 
 ## DBSCAN disadvantages
 
@@ -84,7 +84,7 @@ m -> inf: r_nk -> 1/k
 
 ## why for all x_n sum(r_nk) = 1 and for all C_k sum(r_nk) > 0
 
-first ensures the membership of point in all clusters sum to 1 to eliminate that the point is clustered. second ensures that each cluster has some points
+first ensures the membership of point in all clusters sum to 1 to eliminate that the point is not clustered. second ensures that each cluster has some points
 
 ## Gaussian Mixture Models Advantages
 
